@@ -1,0 +1,10 @@
+^C:\USERS\ALLEN_LQ2WHPE\DOCUMENTS\GITHUB\TASKAPP\TASK_MANAGER\BUILD\WINDOWS\CMAKEFILES\35FE48FBDE07D09C639DB084C2CED5D0\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/allen_lq2whpe/Documents/GitHub/TaskApp/task_manager/windows -BC:/Users/allen_lq2whpe/Documents/GitHub/TaskApp/task_manager/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/allen_lq2whpe/Documents/GitHub/TaskApp/task_manager/build/windows/task_manager.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
