@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\allen_lq2whpe\Documents\GitHub\TaskApp\task_manager\build\windows\CMakeFiles\35fe48fbde07d09c639db084c2ced5d0\INSTALL_force.rule">
+    <CustomBuild Include="C:\Users\allen_lq2whpe\Documents\GitHub\Task-Manager-App\task_manager\build\windows\CMakeFiles\02925886cf71a7fa7dc87a52e9589e39\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{C6BEBE28-8F2F-312A-A5F1-35016A13096A}</UniqueIdentifier>
+      <UniqueIdentifier>{3D69A44E-56D9-3629-A097-696672E07BF4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

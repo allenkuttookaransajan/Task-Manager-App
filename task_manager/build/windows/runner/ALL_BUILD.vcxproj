@@ -21,7 +21,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{FF098016-A161-3F01-A279-1285E3E491E7}</ProjectGuid>
+    <ProjectGuid>{FB80498F-DC9B-383B-ADB8-62F2BE10CC97}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -88,11 +88,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\allen_lq2whpe\Documents\GitHub\TaskApp\task_manager\windows\runner\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\allen_lq2whpe\Documents\GitHub\Task-Manager-App\task_manager\windows\runner\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/allen_lq2whpe/Documents/GitHub/TaskApp/task_manager/windows/runner/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/allen_lq2whpe/Documents/GitHub/Task-Manager-App/task_manager/windows/runner/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/allen_lq2whpe/Documents/GitHub/TaskApp/task_manager/windows -BC:/Users/allen_lq2whpe/Documents/GitHub/TaskApp/task_manager/build/windows --check-stamp-file C:/Users/allen_lq2whpe/Documents/GitHub/TaskApp/task_manager/build/windows/runner/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/allen_lq2whpe/Documents/GitHub/Task-Manager-App/task_manager/windows -BC:/Users/allen_lq2whpe/Documents/GitHub/Task-Manager-App/task_manager/build/windows --check-stamp-file C:/Users/allen_lq2whpe/Documents/GitHub/Task-Manager-App/task_manager/build/windows/runner/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -101,11 +101,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\allen_lq2whpe\Documents\GitHub\TaskApp\task_manager\build\windows\runner\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\allen_lq2whpe\Documents\GitHub\Task-Manager-App\task_manager\build\windows\runner\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/Users/allen_lq2whpe/Documents/GitHub/TaskApp/task_manager/windows/runner/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/Users/allen_lq2whpe/Documents/GitHub/Task-Manager-App/task_manager/windows/runner/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/allen_lq2whpe/Documents/GitHub/TaskApp/task_manager/windows -BC:/Users/allen_lq2whpe/Documents/GitHub/TaskApp/task_manager/build/windows --check-stamp-file C:/Users/allen_lq2whpe/Documents/GitHub/TaskApp/task_manager/build/windows/runner/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/allen_lq2whpe/Documents/GitHub/Task-Manager-App/task_manager/windows -BC:/Users/allen_lq2whpe/Documents/GitHub/Task-Manager-App/task_manager/build/windows --check-stamp-file C:/Users/allen_lq2whpe/Documents/GitHub/Task-Manager-App/task_manager/build/windows/runner/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -114,11 +114,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\allen_lq2whpe\Documents\GitHub\TaskApp\task_manager\build\windows\runner\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\allen_lq2whpe\Documents\GitHub\Task-Manager-App\task_manager\build\windows\runner\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/allen_lq2whpe/Documents/GitHub/TaskApp/task_manager/windows/runner/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/allen_lq2whpe/Documents/GitHub/Task-Manager-App/task_manager/windows/runner/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/allen_lq2whpe/Documents/GitHub/TaskApp/task_manager/windows -BC:/Users/allen_lq2whpe/Documents/GitHub/TaskApp/task_manager/build/windows --check-stamp-file C:/Users/allen_lq2whpe/Documents/GitHub/TaskApp/task_manager/build/windows/runner/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/allen_lq2whpe/Documents/GitHub/Task-Manager-App/task_manager/windows -BC:/Users/allen_lq2whpe/Documents/GitHub/Task-Manager-App/task_manager/build/windows --check-stamp-file C:/Users/allen_lq2whpe/Documents/GitHub/Task-Manager-App/task_manager/build/windows/runner/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -127,21 +127,21 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\allen_lq2whpe\Documents\GitHub\TaskApp\task_manager\build\windows\runner\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\allen_lq2whpe\Documents\GitHub\Task-Manager-App\task_manager\build\windows\runner\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\allen_lq2whpe\Documents\GitHub\TaskApp\task_manager\build\windows\ZERO_CHECK.vcxproj">
-      <Project>{289E7007-AE3F-3E7A-85CD-A47FAE68AFE1}</Project>
+    <ProjectReference Include="C:\Users\allen_lq2whpe\Documents\GitHub\Task-Manager-App\task_manager\build\windows\ZERO_CHECK.vcxproj">
+      <Project>{DB6D33FD-B19A-3AD8-85D9-FF0EBD794AE7}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\allen_lq2whpe\Documents\GitHub\TaskApp\task_manager\build\windows\runner\task_manager.vcxproj">
-      <Project>{52B3BCBF-61FC-3339-A83D-29E06D16A14E}</Project>
+    <ProjectReference Include="C:\Users\allen_lq2whpe\Documents\GitHub\Task-Manager-App\task_manager\build\windows\runner\task_manager.vcxproj">
+      <Project>{247985B1-E979-320F-884D-CF5A03761604}</Project>
       <Name>task_manager</Name>
     </ProjectReference>
   </ItemGroup>

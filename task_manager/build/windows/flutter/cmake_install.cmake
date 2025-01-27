@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/allen_lq2whpe/Documents/GitHub/TaskApp/task_manager/windows/flutter
+# Install script for directory: C:/Users/allen_lq2whpe/Documents/GitHub/Task-Manager-App/task_manager/windows/flutter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

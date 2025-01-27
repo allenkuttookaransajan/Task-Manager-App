@@ -1,6 +1,6 @@
-^C:\USERS\ALLEN_LQ2WHPE\DOCUMENTS\GITHUB\TASKAPP\TASK_MANAGER\BUILD\WINDOWS\CMAKEFILES\FB23B738BCB254106B6932AF69483F05\FLUTTER_WINDOWS.DLL.RULE
+^C:\USERS\ALLEN_LQ2WHPE\DOCUMENTS\GITHUB\TASK-MANAGER-APP\TASK_MANAGER\BUILD\WINDOWS\CMAKEFILES\5E19AE7D6BEC062074B6BDBA14715F8A\FLUTTER_WINDOWS.DLL.RULE
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Dev\flutter PROJECT_DIR=C:\Users\allen_lq2whpe\Documents\GitHub\TaskApp\task_manager FLUTTER_ROOT=C:\Dev\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\allen_lq2whpe\Documents\GitHub\TaskApp\task_manager\windows\flutter\ephemeral PROJECT_DIR=C:\Users\allen_lq2whpe\Documents\GitHub\TaskApp\task_manager FLUTTER_TARGET=C:\Users\allen_lq2whpe\Documents\GitHub\TaskApp\task_manager\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9hNzk0Y2YyNjgxYzZjOWZlN2IyNjBlMGU4NGRlOTYyOThkYzljMThiLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\allen_lq2whpe\Documents\GitHub\TaskApp\task_manager\.dart_tool\package_config.json C:/Dev/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Dev\flutter PROJECT_DIR=C:\Users\allen_lq2whpe\Documents\GitHub\Task-Manager-App\task_manager FLUTTER_ROOT=C:\Dev\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\allen_lq2whpe\Documents\GitHub\Task-Manager-App\task_manager\windows\flutter\ephemeral PROJECT_DIR=C:\Users\allen_lq2whpe\Documents\GitHub\Task-Manager-App\task_manager FLUTTER_TARGET=C:\Users\allen_lq2whpe\Documents\GitHub\Task-Manager-App\task_manager\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9hNzk0Y2YyNjgxYzZjOWZlN2IyNjBlMGU4NGRlOTYyOThkYzljMThiLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\allen_lq2whpe\Documents\GitHub\Task-Manager-App\task_manager\.dart_tool\package_config.json C:/Dev/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -8,7 +8,7 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\ALLEN_LQ2WHPE\DOCUMENTS\GITHUB\TASKAPP\TASK_MANAGER\BUILD\WINDOWS\CMAKEFILES\2575714508AF35FB69F85AA573DC8344\FLUTTER_ASSEMBLE.RULE
+^C:\USERS\ALLEN_LQ2WHPE\DOCUMENTS\GITHUB\TASK-MANAGER-APP\TASK_MANAGER\BUILD\WINDOWS\CMAKEFILES\E1B00F2F44F1032BB517BE527E190892\FLUTTER_ASSEMBLE.RULE
 setlocal
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -16,9 +16,9 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\ALLEN_LQ2WHPE\DOCUMENTS\GITHUB\TASKAPP\TASK_MANAGER\WINDOWS\FLUTTER\CMAKELISTS.TXT
+^C:\USERS\ALLEN_LQ2WHPE\DOCUMENTS\GITHUB\TASK-MANAGER-APP\TASK_MANAGER\WINDOWS\FLUTTER\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/allen_lq2whpe/Documents/GitHub/TaskApp/task_manager/windows -BC:/Users/allen_lq2whpe/Documents/GitHub/TaskApp/task_manager/build/windows --check-stamp-file C:/Users/allen_lq2whpe/Documents/GitHub/TaskApp/task_manager/build/windows/flutter/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/allen_lq2whpe/Documents/GitHub/Task-Manager-App/task_manager/windows -BC:/Users/allen_lq2whpe/Documents/GitHub/Task-Manager-App/task_manager/build/windows --check-stamp-file C:/Users/allen_lq2whpe/Documents/GitHub/Task-Manager-App/task_manager/build/windows/flutter/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
