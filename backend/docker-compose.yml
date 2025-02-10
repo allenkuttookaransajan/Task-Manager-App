@@ -7,11 +7,13 @@ services:
     environment:
       - PORT=8000
       - DATABASE_URL=postgresql://postgres:test123@db:5432/mydb
+      - CHOKIDAR_USEPOLLING=true
     depends_on:
       - db
     volumes:
       - ./:/app
       - /app/node_modules
+    
 
   db:
     image: postgres:15
