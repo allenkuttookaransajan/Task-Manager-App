@@ -1,9 +1,12 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:task_manager/core/constants/constants.dart';
+import 'package:task_manager/core/services/sp_services.dart';
 import 'package:task_manager/models/user_model.dart';
 
 class AuthRemoteRepository {
+  final spService = SpService();
+
   Future<UserModel> signUp(
       {required String name,
       required String email,
@@ -14,7 +17,7 @@ class AuthRemoteRepository {
           '${Constants.backendUri}/auth/signup',
         ),
         headers: {
-          'Content-type': 'application/json',
+          'Content-Type': 'application/json',
         },
         body: jsonEncode({
           'name': name,
@@ -40,7 +43,7 @@ class AuthRemoteRepository {
           '${Constants.backendUri}/auth/login',
         ),
         headers: {
-          'Content-type': 'application/json',
+          'Content-Type': 'application/json',
         },
         body: jsonEncode({
           'email': email,
@@ -54,6 +57,46 @@ class AuthRemoteRepository {
       return UserModel.fromMap(jsonDecode(res.body));
     } catch (e) {
       throw e.toString();
+    }
+  }
+
+  Future<UserModel?> getUserData() async {
+    try {
+      final token = await spService.getToken();
+      if (token == null) {
+        return null;
+      }
+      final res = await http.post(
+        Uri.parse(
+          '${Constants.backendUri}/auth/tokenIsValid',
+        ),
+        headers: {
+          'Content-Type': 'application/json',
+          'x-auth-token': token,
+        },
+      );
+
+      if (res.statusCode != 200 || jsonDecode(res.body) == false) {
+        return null;
+      }
+
+      final userResponse = await http.get(
+        Uri.parse(
+          '${Constants.backendUri}/auth',
+        ),
+        headers: {
+          'Content-Type': 'application/json',
+          'x-auth-token': token,
+        },
+      );
+
+      if (userResponse.statusCode != 200) {
+        throw jsonDecode(userResponse.body)['error'];
+      }
+
+      return UserModel.fromMap(jsonDecode(userResponse.body));
+    } catch (e) {
+      return null;
     }
   }
 }

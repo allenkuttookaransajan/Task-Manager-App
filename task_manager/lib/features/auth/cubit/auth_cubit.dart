@@ -1,4 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:task_manager/core/services/sp_services.dart';
 import 'package:task_manager/features/auth/repository/auth_remote_repository.dart';
 import 'package:task_manager/models/user_model.dart';
 
@@ -7,6 +8,21 @@ part 'auth_state.dart';
 class AuthCubit extends Cubit<AuthState> {
   AuthCubit() : super(AuthIntial());
   final authRemoteRepository = AuthRemoteRepository();
+  final spService = SpService();
+
+  void getUserData() async {
+    try {
+      emit(AuthLoading());
+      final userModel = await authRemoteRepository.getUserData();
+      if (userModel != null) {
+        emit(AuthLoggedIn(userModel));
+      } else {
+        emit(AuthIntial());
+      }
+    } catch (e) {
+      emit(AuthIntial());
+    }
+  }
 
   void signUp({
     required String name,
@@ -36,6 +52,11 @@ class AuthCubit extends Cubit<AuthState> {
         email: email,
         password: password,
       );
+
+      if (userModel.token.isNotEmpty) {
+        spService.setToken(userModel.token);
+      }
+
       emit(AuthLoggedIn(userModel));
     } catch (e) {
       emit(AuthError(e.toString()));

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:task_manager/features/auth/cubit/auth_cubit.dart';
 import 'package:task_manager/features/auth/pages/signup_page.dart';
+import 'package:task_manager/features/home/pages/home_page.dart';
 
 class LoginPage extends StatefulWidget {
   static MaterialPageRoute route() => MaterialPageRoute(
@@ -48,11 +49,8 @@ class _LoginPageState extends State<LoginPage> {
               ),
             );
           } else if (state is AuthLoggedIn) {
-            ScaffoldMessenger.of(context).showSnackBar(
-              const SnackBar(
-                content: Text("You are loggged in!"),
-              ),
-            );
+            Navigator.pushAndRemoveUntil(
+                context, HomePage.route(), (route) => false);
           }
         },
         builder: (context, state) {
