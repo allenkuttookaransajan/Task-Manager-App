@@ -5,5 +5,6 @@ C:/Users/allen_lq2whpe/Documents/GitHub/Task-Manager-App/task_manager/build/wind
 C:/Users/allen_lq2whpe/Documents/GitHub/Task-Manager-App/task_manager/build/windows/runner/Debug/data/flutter_assets/FontManifest.json
 C:/Users/allen_lq2whpe/Documents/GitHub/Task-Manager-App/task_manager/build/windows/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
 C:/Users/allen_lq2whpe/Documents/GitHub/Task-Manager-App/task_manager/build/windows/runner/Debug/data/flutter_assets/kernel_blob.bin
+C:/Users/allen_lq2whpe/Documents/GitHub/Task-Manager-App/task_manager/build/windows/runner/Debug/data/flutter_assets/NOTICES
 C:/Users/allen_lq2whpe/Documents/GitHub/Task-Manager-App/task_manager/build/windows/runner/Debug/data/flutter_assets/NOTICES.Z
 C:/Users/allen_lq2whpe/Documents/GitHub/Task-Manager-App/task_manager/build/windows/runner/Debug/data/flutter_assets/shaders/ink_sparkle.frag

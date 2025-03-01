@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 import 'package:task_manager/features/auth/cubit/auth_cubit.dart';
 import 'package:task_manager/features/auth/pages/signup_page.dart';
 import 'package:task_manager/features/home/pages/home_page.dart'; // Importing the Flutter material package
 
 void main() {
+  sqfliteFfiInit();
+  databaseFactory = databaseFactoryFfi;
   runApp(
     MultiBlocProvider(
       providers: [
